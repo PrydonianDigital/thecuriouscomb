@@ -1,0 +1,137 @@
+/*  
+Theme Name: The Curious Comb
+Theme URI: https://github.com/markduwe/thecuriouscomb
+Description: Wordpress theme for The Curious Comb Salon
+Version: 1.0
+Author: Mark Duwe
+Author URI: http://prydonian.digital
+Tags: 
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+*/
+body {
+	background: url(img/background.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-weight: 400;
+}
+.alignleft {
+	float: left;
+	margin: 0 12px 0 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0 0 12px;
+}
+.aligncenter {
+	margin: 12px auto;
+	display: block;
+	text-align: center;
+}
+#pageContent ul , #pageContent ol {
+	margin: 7px 0 7px 20px;
+	list-style: disc;
+}
+.row {
+	background: url(img/content-background.png);
+}
+.navbar .row {
+	background: transparent;
+}
+.navbar ul li.active a, .navbar ul li.current-menu-item a, .navbar ul li.current_page_item a, .navbar ul li.current_page_parent a, .navbar ul li .dropdown li.active a, .navbar li .dropdown ul > li a:hover, .term-children li.menu-item-salon-services a, .term-for-our-gents li.menu-item-salon-services a, .term-for-our-ladies li.menu-item-salon-services a {
+	background: #6D554A;
+}
+.gumby-no-touch .navbar li a:hover {
+	background: #6D554A;
+	color: #fff;	
+}
+.navbar li .dropdown ul > li a {
+	background: #201916;
+	color: #fff;	
+}
+.gumby-no-touch .navbar li .dropdown ul > li a:hover {
+	background: #6D554A;
+	color: #fff;	
+}
+h1.logo {
+	margin: 0;
+	padding: 0;
+}
+h2.tagline {
+	font-size: 1.625rem;
+	text-align: center;
+	margin: 0;
+	padding-top: 0;
+}
+.blogPost {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #201916;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	border: 1px solid #201916;
+	background-color: #201916;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+	border-bottom: 1px solid #201916;
+}
+.wc-bookings-booking-form, form fieldset {
+	border: 1px solid #201916;
+	border-radius: 4px;
+}
+.picker {
+	width: 98%;
+}
+.picker:after {
+	content: "";
+}
+table thead {
+    background-color: #201916;
+    color: #FFF;
+}
+.woocommerce table.shop_table {
+	border-color: #201916;
+}
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+    border-top: 1px solid #201916;
+}
+.woocommerce table.shop_table td {
+    border-top: 1px solid #201916;
+}
+.wc-bookings-booking-form .block-picker li a {
+    border: 2px dashed #201916;
+    color: #201916;
+}
+.wc-bookings-booking-form .block-picker li a:hover {
+    border: 2px dashed #201916;
+    color: #201916;
+}
+.wc-bookings-booking-form .wc-bookings-booking-cost {
+    background: #201916;
+    border-top: 1px solid #201916;
+    color: #fff;
+}
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover {
+    color: #ffffff !important;
+}
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt {
+    color: #ffffff !important;
+}
+.wc-bookings-date-picker .ui-datepicker-header, .wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev, .wc-bookings-date-picker .ui-datepicker .ui-datepicker-next {
+	background: #201916;
+}
+.wc-bookings-date-picker .ui-datepicker td.bookable a, .wc-bookings-date-picker .ui-datepicker td.ui-datepicker-current-day a {
+	background: #201916;
+}
+.wc-bookings-date-picker .ui-datepicker td.fully_booked span {
+	background: #454545 !important;
+	color: #000 !important;
+}
