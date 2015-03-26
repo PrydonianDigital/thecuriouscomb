@@ -39,10 +39,10 @@ body {
 	background: transparent;
 }
 .navbar ul li.active a, .navbar ul li.current-menu-item a, .navbar ul li.current_page_item a, .navbar ul li.current_page_parent a, .navbar ul li .dropdown li.active a, .navbar li .dropdown ul > li a:hover, .term-children li.menu-item-salon-services a, .term-for-our-gents li.menu-item-salon-services a, .term-for-our-ladies li.menu-item-salon-services a {
-	background: #6D554A;
+	background: #704214;
 }
 .gumby-no-touch .navbar li a:hover {
-	background: #6D554A;
+	background: #704214;
 	color: #fff;	
 }
 .navbar li .dropdown ul > li a {
@@ -50,7 +50,7 @@ body {
 	color: #fff;	
 }
 .gumby-no-touch .navbar li .dropdown ul > li a:hover {
-	background: #6D554A;
+	background: #704214;
 	color: #fff;	
 }
 h1.logo {
